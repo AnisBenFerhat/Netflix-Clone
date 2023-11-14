@@ -1,3 +1,30 @@
 .navigation {
-  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4.25rem; /* 68px in rem */
+  background-color: #333;
+  color: #e5e5e5;
+  padding: 0 2rem;
+}
+
+.navigation-main {
+  display: flex;
+}
+
+.logo {
+  max-width: 5.75rem; /* 92px in rem */
+  height: auto;
+  margin-right: 2rem;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.list-item {
+  margin-left: 1rem;
+  font-size: 0.8rem;
 }

@@ -11,7 +11,9 @@ function Navigation() {
         <img className={styles['logo']} src={Logo} alt='Netflix logo' />
         <ul className={styles['list']}>
           {navItems.map((item) => (
-            <li className={styles['list-item']}>{item}</li>
+            <li className={styles['list-item']}>
+              <a href='/'>{item}</a>
+            </li>
           ))}
         </ul>
       </div>

@@ -1,0 +1,11 @@
+/* FooterLinks.module.css */
+.iconContainer {
+  display: flex;
+  gap: 1rem;
+  padding: 10px 0;
+}
+
+.icon {
+  color: #fff;
+  font-size: 1.4rem;
+}

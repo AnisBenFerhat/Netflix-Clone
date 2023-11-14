@@ -1,10 +1,13 @@
 import styles from './Footer..module.css';
+import FooterLinks from './FooterLinks/FooterLinks';
+import SocialLinks from './SocialLinks/SocialLinks';
 
 function Footer() {
   return (
-    <div className={styles.footer}>
-      <h1>Footer</h1>
-    </div>
+    <footer className={styles.footer}>
+      <SocialLinks />
+      <FooterLinks />
+    </footer>
   );
 }
 

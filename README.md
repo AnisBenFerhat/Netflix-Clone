@@ -1,27 +1,40 @@
-# React + TypeScript + Vite
+# Netflix Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a Netflix clone developed using React, TypeScript, and CSS Modules. It was bootstrapped with Vite and utilizes pnpm package management. The project adheres to Airbnb's linting rules.
 
-Currently, two official plugins are available:
+## Purpose
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The main objective of this project is to recreate the homepage of the Netflix website by observing and inspecting its UI. The primary focus was on replicating the user interface, and hence, it doesn't heavily involve JavaScript functionality or API integration.
 
-## Expanding the ESLint configuration
+## Key Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Navigation**: Divided into two sections for seamless browsing.
+- **Movie Section**: Displays movies using object data along with interactive buttons.
+- **Titles Section**: Showcases a selection of movies in a visually appealing manner.
+- **Footer**: Includes navigation items for easy access.
 
-- Configure the top-level `parserOptions` property like this:
+## Tech Stack
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- **React**: Framework for building the UI components.
+- **TypeScript**: Adds static typing to JavaScript for better scalability and code maintenance.
+- **CSS Modules**: Scoped CSS styling for more maintainable and modular code.
+- **Vite**: Build tool for modern web development.
+- **pnpm**: Package manager used for dependency management.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Usage
+
+To run this project locally:
+
+1. Clone the repository.
+2. Install dependencies using `pnpm install`.
+3. Start the development server using `pnpm dev`.
+
+## Credits
+
+This project was created with inspiration from the Netflix website's homepage UI.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Screenshot

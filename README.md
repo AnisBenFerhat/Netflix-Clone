@@ -38,3 +38,7 @@ This project was created with inspiration from the Netflix website's homepage UI
 This project is licensed under the [MIT License](LICENSE).
 
 ## Screenshot
+![image](https://github.com/AnisBenFerhat/Netflix-Clone/assets/114016119/bf7aa7d4-eb15-4245-834e-69ffcda0cf9a)
+
+
+![image](https://github.com/AnisBenFerhat/Netflix-Clone/assets/114016119/f740744a-b997-4025-a23e-e98dd82673d5)

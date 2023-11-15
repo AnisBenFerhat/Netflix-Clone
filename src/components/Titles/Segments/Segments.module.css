@@ -1,0 +1,39 @@
+.segments {
+  color: white;
+  text-align: center;
+}
+
+.section {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.sectionTitle {
+  text-align: left;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: lighter;
+  letter-spacing: 0.5px;
+}
+
+.scrollWrapper {
+  display: flex;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.item {
+  flex: 0 0 20%;
+  transition: 250ms all;
+}
+
+.item:hover {
+  transform: scale(1.2);
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}

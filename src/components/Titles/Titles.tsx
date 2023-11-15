@@ -1,9 +1,10 @@
+import Segments from './Segments/Segments';
 import styles from './Titles.module.css';
 
 function Titles() {
   return (
     <div className={styles.title}>
-      <h1>Titles</h1>
+      <Segments />
     </div>
   );
 }
